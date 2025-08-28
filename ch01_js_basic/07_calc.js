@@ -23,3 +23,4 @@ let multiResut = calc(203, 3459, '*');
 console.log(minusResult);
 let divResut = calc(5943, 21, '/');
 console.log(minusResult);
+
