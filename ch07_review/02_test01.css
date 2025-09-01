@@ -37,7 +37,8 @@ width: 100%;  /* 부모 width에 꽉 차게 */
   border-radius: 10px;
   cursor: text; /* 텍스트 입력창임을 알리는 커서로 변경 */
   box-sizing: border-box; /* padding과 border가 width안에 포함되도록 */
-}
+  /*위의 주석을 처리한 다음, 다시 지피티로 가져와봤는데 뭐가뭔지 잘 모르겠다. 나중에 실험해보자. */
+} 
 
 
 html, body {
@@ -49,4 +50,6 @@ html, body {
   justify-content: center;
   align-items: center;
   background-color: aqua;
-}
+  /* 위 코드는 라이브 서버로 열었을때 브라우저 창 크기를 조절할때 안바뀌게끔 하기위한 것이다. 
+지피티 사용함*/
+} 
